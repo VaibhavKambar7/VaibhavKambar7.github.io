@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customized Tshirts</title>
+  </head>
+  <body>
+    <header><b> Welcome !!!</b></header>
+    <h1><b>40% off on your customized tshirts . Buy Now !!!</b></h1>
+    <form action="" enctype="multipart/form-data" method="put">
+      <u><b><h3><strong>Order Details are given below</strong></h3></b></u>
+      <details>
+        <summary>Click to read more</summary>
+
+        <p>
+          You'll get a customized well designed tshirt here. Scroll down for
+          more. Thank you!
+        </p>
+      </details>
+      <p>Your Order:</p>
+      <figure>
+        <img
+          src="tshirts pic.jfif"
+          alt="My Image"
+          width="250"
+        />
+        <figcaption></figcaption>
+      </figure>
+      <br /><br />
+      <label for="tagline">Enter Tagline:</label><br />
+      <input type="text" name="tagline" id="tagline" /><br /><br />
+      <fieldset>
+        <legend><label for="color">Choose Color:</label></legend>
+        <br />
+        <input type="radio" id="red" name="color" value="Red" required>
+        <label for="red">Red</label><br />
+        <input type="radio" id="white" name="color" value="White" required>
+        <label for="white">White</label><br />
+        <input type="radio" id="blue" name="color" value="blue" required>
+        <label for="blue">Blue</label>
+      </fieldset>
+      <br /><br />
+      <label for="size">Select Size:</label><br />
+      <select id="size" name="size">
+        <option value="25">25</option>
+        <option value="30">30</option>
+        <option value="35">35</option>
+        <option value="40">40</option></select
+      ><br /><br />
+      <label for="quantity">Quantity: </label><br />
+      <select id="quantity" name="quantity">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option></select
+      ><br /><br />
+      <h4>Put your delivery address</h4>
+      <label for="address">Flat/Plot/Building</label>
+      <input type="text" name="address" id="address" required><br /><br />
+      <label for="address1">Street/area</label>
+      <input type="text" name="address1" id="address1" /><br /><br />
+      <label for="address2">City</label>
+      <input type="text" name="address2" id="address2" /><br /><br />
+      <label for="address3">State</label>
+      <input type="text" name="address3" id="address3" /><br /><br />
+      <label for="address4">Enter Pincode</label>
+      <input type="number" name="address4" id="address4" required>
+      <br /><br />
+      <br /><br />
+      <label for="price">Total Order Price: <strong>25.49$</strong></label>
+      <br /><br />
+      <br /><br />
+      <button type="submit">Place Order</button>
+      <br /><br />
+      <br /><br />
+      <fieldset>
+        <legend><label for="payment_options">Payment Options:</label></legend>
+        <br />
+        <input type="radio" id="cc" name="color" value="Credit/Debit Card" />
+        <label for="cc">Credit/Debit Card</label><br />
+        <input type="radio" id="upi" name="color" value="UPI" />
+        <label for="upi">UPI</label><br />
+        <input type="radio" id="crypto" name="color" value="Crypto" />
+        <label for="crypto">Crypto-Wallet</label><br /><br />
+      </fieldset>
+      <br><br>
+      <footer>Thank You!</footer>
+    </form>
+  </body>
+</html>
+
