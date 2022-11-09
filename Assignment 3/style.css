@@ -1,0 +1,14 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+    background:purple;
+    box-shadow: 1px 1px 2px #4444;
+
+}
+ 
+.page-footer {
+    background-color:lightgrey;
+}
